@@ -65,6 +65,13 @@
     padding: 20px;
   }
   
+
+  .bio .container {
+    max-width: 600px;
+    text-align: left; 
+    margin: 0 auto; 
+  }
+  
   .text-center {
     width: 100%;
   }
