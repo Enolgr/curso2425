@@ -21,7 +21,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: fit-content;
   }
 
   
@@ -32,6 +32,12 @@
   
   .text-gradient {
     background: linear-gradient(to right, var(--oscuro), var(--main));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-gradient-blanco {
+    background: linear-gradient(to right, var(--claro), #dfe5f6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -50,7 +56,7 @@
   }
   
   .hero {
-    height: 90vh;
+    height: fit-content;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -99,7 +105,7 @@
   }
   
   .mi-trabajo {
-    height: 80vh;
+    height: fit-content;
     background-color: white;
   }
   
@@ -120,17 +126,16 @@
     border-radius: 0.3rem;
   }
 
-  .tecnologias{
-    background-image: url(../img/fondo-2.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size:contain;
-    height: 70vh;
-  }
+
   .imagen-tec{
+    height: 4rem;
     filter: saturate(0);
     transition: ease-in-out 0.3s;
   }
   .imagen-tec:hover{
     filter:saturate(1);
   }
+.contenedor-formulario{
+    border-radius: 0.4rem;
+    background-color: var(--azul);
+}
