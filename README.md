@@ -21,5 +21,5 @@ Este portafolio está diseñado para mostrar mi experiencia laboral, proyectos a
 - JavaScript
 - Bootstrap
 - PHP (para el manejo del formulario de contacto)
-- MySQL (en proyectos relacionados)
+
 
