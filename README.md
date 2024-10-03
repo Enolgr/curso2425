@@ -23,5 +23,3 @@ Este portafolio está diseñado para mostrar mi experiencia laboral, proyectos a
 - PHP (para el manejo del formulario de contacto)
 - MySQL (en proyectos relacionados)
 
-
-   git clone https://github.com/tu_usuario/enol-gonzalez-portafolio.git
