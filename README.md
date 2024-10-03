@@ -1,6 +1,6 @@
 # Enol González - Portafolio Personal
 
-Bienvenido al portafolio personal de Enol González, un junior developer y event manager. Este sitio web presenta mis proyectos, habilidades y una forma de contactarme.
+Portafolio basico utilizando bootstrap.
 
 ## Descripción
 
